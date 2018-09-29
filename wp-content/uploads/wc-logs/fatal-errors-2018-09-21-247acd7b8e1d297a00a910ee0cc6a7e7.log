@@ -1,0 +1,11 @@
+2018-09-21T10:18:01+00:00 CRITICAL Uncaught Error: Call to undefined function admin() in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php:230
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): my_deregister_styles('')
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/functions.wp-styles.php(52): do_action('wp_print_styles')
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wp_print_styles(false)
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /Users/strichpunkt/Documents/projects/pla
+

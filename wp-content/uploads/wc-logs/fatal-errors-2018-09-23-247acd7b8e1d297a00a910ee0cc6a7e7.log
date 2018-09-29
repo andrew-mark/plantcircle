@@ -1,0 +1,33 @@
+2018-09-23T12:43:11+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/inc/woocommerce.php:231
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/inc/woocommerce.php(209): plantcircle_woocommerce_cart_link()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): plantcircle_woocommerce_cart_link_fragment('')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-settings.php(450): do_action('init')
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-config.php(98): require_once('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-load.php(37): require_once('/Users/strichpu...')
+#7 /Users
+
+2018-09-23T12:44:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/inc/woocommerce.php:231
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/inc/woocommerce.php(209): plantcircle_woocommerce_cart_link()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): plantcircle_woocommerce_cart_link_fragment('')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-settings.php(450): do_action('init')
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-config.php(98): require_once('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-load.php(37): require_once('/Users/strichpu...')
+#7 /Users
+
+2018-09-23T12:46:36+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php:285
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php(263): plantcircle_woocommerce_cart_icon_link()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): plantcircle_woocommerce_cart_icon('')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-settings.php(450): do_action('init')
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-config.php(98): require_once('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-load.php(37): require_once('/Users/strichpu...')
+#7 /Users/strichpunkt/Doc
+

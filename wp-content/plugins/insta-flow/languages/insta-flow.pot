@@ -1,0 +1,190 @@
+# Copyright (C) 2017 Looks Awesome
+# This file is distributed under the same license as the Grace: Instagram Feed Gallery for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grace: Instagram Feed Gallery for WordPress 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/insta-flow\n"
+"POT-Creation-Date: 2017-09-11 10:54:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Team Name <team@example.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: flow-flow/includes/FlowFlow.php:76
+msgid "All"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:77 views/public.php:30
+msgid "Search"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:78 views/public.php:31
+msgid "Expand"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:79 views/public.php:32
+msgid "Collapse"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:80 views/public.php:33
+msgid "Posted on"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:81 views/public.php:34
+msgid "Show more"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:84 views/public.php:40
+msgid "Yesterday"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:85 views/public.php:41
+msgid "s"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:86 views/public.php:42
+msgid "m"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:87 views/public.php:43
+msgid "h"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:88 views/public.php:44
+msgid "ago"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:90 views/public.php:46
+msgid "Jan"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:90 views/public.php:46
+msgid "Feb"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:90 views/public.php:46
+msgid "March"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:91 views/public.php:47
+msgid "April"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:91 views/public.php:47
+msgid "May"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:91 views/public.php:47
+msgid "June"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:92 views/public.php:48
+msgid "July"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:92 views/public.php:48
+msgid "Aug"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:92 views/public.php:48
+msgid "Sept"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:93 views/public.php:49
+msgid "Oct"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:93 views/public.php:49
+msgid "Nov"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:93 views/public.php:49
+msgid "Dec"
+msgstr ""
+
+#: flow-flow/includes/FlowFlow.php:96 views/public.php:52
+msgid "Navigate with arrow keys"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowActivator.php:39
+msgid "Social Stream"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowActivator.php:43
+msgid "Flow-Flow plugin social stream"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowActivator.php:45 includes/FFI.php:32
+msgid "Social"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowActivator.php:54
+msgid "Choose stream to place on page:"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowWPWidget.php:59 includes/FFIWPWidget.php:60
+msgid "Title:"
+msgstr ""
+
+#: flow-flow/includes/FlowFlowWPWidget.php:63 includes/FFIWPWidget.php:64
+msgid "Stream:"
+msgstr ""
+
+#: flow-flow/includes/LAAdminBase.php:81 includes/FFIAdmin.php:156
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/FFI.php:28
+msgid "Grace"
+msgstr ""
+
+#: includes/FFI.php:29
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/FFI.php:38
+msgid "Stream"
+msgstr ""
+
+#: includes/FFI.php:42
+msgid "Choose stream to display"
+msgstr ""
+
+#: views/public.php:29
+msgid "Show All"
+msgstr ""
+
+#: views/public.php:35
+msgid "Followers"
+msgstr ""
+
+#: views/public.php:36
+msgid "Following"
+msgstr ""
+
+#: views/public.php:37
+msgid "Posts"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Grace: Instagram Feed Gallery for WordPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://social-streams.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create graceful galleries of Instagram posts on your WordPress site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Looks Awesome"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "looks-awesome.com"
+msgstr ""

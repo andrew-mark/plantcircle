@@ -1,0 +1,98 @@
+2018-09-01T17:42:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function category_id_class(), 0 passed in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/loop/loop-start.php on line 23 and exactly 1 expected in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php:174
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/loop/loop-start.php(23): category_id_class()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-core-functions.php(210): include('/Users/strichpu...')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1029): wc_get_template('loop/loop-start...')
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/archive-product.php(65): woocommerce_product_loop_start()
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes
+
+2018-09-01T17:53:42+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+
+2018-09-01T17:55:13+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+
+2018-09-01T17:57:01+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+
+2018-09-01T17:57:27+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+
+2018-09-01T17:58:13+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+
+2018-09-01T18:05:15+00:00 CRITICAL Uncaught Error: Call to undefined function classes_push() in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php:181
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(288): category_id_class(Array)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179):
+
+2018-09-01T18:10:00+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('Arraym-shop-fro...', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('Arraym-shop-fro...', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-c
+
+2018-09-01T18:11:18+00:00 CRITICAL Uncaught Error: Call to undefined function classes_push() in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/functions.php:181
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(288): category_id_class(Array)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters(Array, Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179):
+
+2018-09-01T18:15:57+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce/includes/wc-template-functions.php:466
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/class-wp-hook.php(286): wc_product_post_class('plant', Array, 11)
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/plugin.php(203): WP_Hook->apply_filters('plant', Array)
+#2 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(543): apply_filters('post_class', Array, Array, 11)
+#3 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/post-template.php(423): get_post_class(Array, NULL)
+#4 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/woocommerce/content-product.php(27): post_class()
+#5 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template.php(690): require('/Users/strichpu...')
+#6 /Users/strichpunkt/Documents/projects/plantcircle/wp-content/plugins/woocommerce
+

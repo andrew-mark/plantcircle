@@ -1,0 +1,16 @@
+2018-08-30T18:27:00+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_get_the_permalink() in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/index.php:37
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template-loader.php(74): include()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-blog-header.php(19): require_once('/Users/strichpu...')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/index.php(17): require('/Users/strichpu...')
+#3 {main}
+  thrown
+
+2018-08-30T18:27:29+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_get_the_permalink() in /Users/strichpunkt/Documents/projects/plantcircle/wp-content/themes/plantcircle/index.php:37
+Stack trace:
+#0 /Users/strichpunkt/Documents/projects/plantcircle/wp-includes/template-loader.php(74): include()
+#1 /Users/strichpunkt/Documents/projects/plantcircle/wp-blog-header.php(19): require_once('/Users/strichpu...')
+#2 /Users/strichpunkt/Documents/projects/plantcircle/index.php(17): require('/Users/strichpu...')
+#3 {main}
+  thrown
+

@@ -1,4 +1,12 @@
 <?php
+
+// BEGIN iThemes Security - Do not modify or remove this line
+// iThemes Security Config Details: 2
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', dirname(__FILE__) . '/wp-content/plugins/wp-super-cache/' );
+define( 'DISALLOW_FILE_EDIT', true ); // Disable File Editor - Security > Settings > WordPress Tweaks > File Editor
+// END iThemes Security - Do not modify or remove this line
+
 /**
  * The base configuration for WordPress
  *
@@ -77,9 +85,10 @@ $table_prefix  = 'pc_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
-/* That's all, stop editing! Happy blogging. */
+define('WP_HOME', 'http://localhost:8888/plantcircle'); // blog url
+define('WP_SITEURL', 'http://localhost:8888/plantcircle'); // site url
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -87,3 +96,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// define('DISALLOW_FILE_EDIT', true);
+
+/* That's all, stop editing! Happy blogging. */
